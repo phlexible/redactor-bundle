@@ -1,6 +1,6 @@
 services:
     phlexible_redactor.listener.view_frame:
-        class: Phlexible\Bundle\RedactorBundle\Field\RedactorField
+        class: Phlexible\Bundle\RedactorBundle\EventListener\ViewFrameListener
         arguments:
             - "%kernel.debug%"
         tags:
