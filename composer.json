@@ -6,7 +6,7 @@
 	"keywords": ["redactor", "editor", "rich text"],
     "autoload": {
         "psr-4": {
-            "Phlexible\\Bundle\\TinymceBundle\\": ""
+            "Phlexible\\Bundle\\RedactorBundle\\": ""
         }
     },
     "require": {
