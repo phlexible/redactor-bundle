@@ -39,12 +39,12 @@ class ViewFrameListener
     public function onViewFrame(ViewEvent $event)
     {
         $event->getView()
-            ->addLink('/bundles/app/redactor/styles/redactor.css')
-            ->addLink('/bundles/app/redactor/styles/plugins.css')
-            ->addScript('/bundles/app/jquery/jquery-1.8.2'.$this->getMinifiedScriptSuffix().'.js')
-            ->addScript('/bundles/app/redactor/scripts/redactor'.$this->getMinifiedScriptSuffix().'.js')
-            ->addInlineScript('var RedactorBaseUrl = "/bundles/app/redactor/scripts";')
-            ->addScript('/bundles/app/redactor/scripts/plugins/concatenated-plugins.js');
+            ->addLink('/bundles/phlexibleredactor/redactor/styles/redactor.css')
+            ->addLink('/bundles/phlexibleredactor/redactor/styles/plugins.css')
+            ->addScript('/bundles/phlexibleredactor/jquery/jquery-1.8.2'.$this->getMinifiedScriptSuffix().'.js')
+            ->addScript('/bundles/phlexibleredactor/redactor/scripts/redactor'.$this->getMinifiedScriptSuffix().'.js')
+            ->addInlineScript('var RedactorBaseUrl = "/bundles/phlexibleredactor/redactor/scripts";')
+            ->addScript('/bundles/phlexibleredactor/redactor/scripts/plugins/concatenated-plugins.js');
     }
 
     /**
