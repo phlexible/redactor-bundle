@@ -1,4 +1,11 @@
 services:
+    phlexible_redactor.listener.view_frame:
+        class: Phlexible\Bundle\RedactorBundle\Field\RedactorField
+        arguments:
+            - "%kernel.debug%"
+        tags:
+            - {name: kernel.event_listener, event: phlexible_gui.view_frame, method: onViewFrame}
+
     phlexible_redactor.field.redactor:
         class: Phlexible\Bundle\RedactorBundle\Field\RedactorField
         public: false
