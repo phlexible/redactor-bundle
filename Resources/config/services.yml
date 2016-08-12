@@ -1,0 +1,6 @@
+services:
+    phlexible_redactor.field.redactor:
+        class: Phlexible\Bundle\RedactorBundle\Field\RedactorField
+        public: false
+        tags:
+            - {name: phlexible_elementtype.field, alias: redactor}

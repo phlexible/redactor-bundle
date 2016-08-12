@@ -1,0 +1,93 @@
+/** acronym */
+body .redactor_toolbar li a.redactor_btn_acronym {
+	background: url(../icons/acronym_btn.png) no-repeat;
+}
+
+.redactor_acronym_box {
+    height: 100px; 
+    overflow: auto; 
+    margin-bottom: 10px;
+}
+
+/** abbreviation */
+body .redactor_toolbar li a.redactor_btn_abbreviation {
+    background: url(../icons/abbr_btn.png) no-repeat;
+}
+
+.redactor_abbreviation_box {
+    height: 100px; 
+    overflow: auto; 
+    margin-bottom: 10px;
+}
+
+/** noglossary */
+body .redactor_toolbar li a.redactor_btn_noglossary {
+    background: url(../icons/noglossary_btn.png) no-repeat;
+}
+dfn {
+    background: #f2dede;
+    font-style: normal;
+}
+
+abbr[title], acronym[title] {
+    border-bottom: 1px dotted;
+    cursor: help;
+}
+
+/** langchange */
+body .redactor_toolbar li a.redactor_btn_langchange {
+	background: url(../icons/lang_btn.png) no-repeat;
+}
+
+span[lang] {
+    background: #ddd;
+}
+
+span[lang]:before,
+abbr[lang]:before,
+acronym[lang]:before,
+a[lang]:before {
+    content: "[" attr(lang) "] ";
+    font-style: italic;
+    font-size: 0.9em;
+}
+
+/** phlexlink */
+body .redactor_toolbar li a.redactor_btn_phlexlink {
+    background: url(../icons/dummy_btn.png) no-repeat;
+}
+
+.redactor_phlexlink_box {
+    height: 200px; 
+    overflow: auto; 
+    margin-bottom: 10px;
+}
+
+/** fixbold */
+body .redactor_toolbar li a.redactor_btn_fixbold {
+	background-position: -50px; 
+    /*background: url(/makeweb/resources/asset/icon/redactor/dummy_btn.png) no-repeat;*/
+}
+
+/** fixitalic */
+body .redactor_toolbar li a.redactor_btn_fixitalic {
+	background-position: -75px; 
+    /*background: url(/makeweb/resources/asset/icon/redactor/dummy_btn.png) no-repeat;*/
+}
+
+/** strong bold fixes */
+.redactor_editor ul {
+    list-style: disc;
+}
+
+.redactor_editor strong {
+    font-weight: bold;
+}
+
+.redactor_editor em {
+    font-style: italic;
+}
+
+.redactor_editor ol {
+    list-style-type: decimal;
+}
