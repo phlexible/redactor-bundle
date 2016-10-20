@@ -14,7 +14,7 @@ namespace Phlexible\Bundle\RedactorBundle\EventListener;
 use Phlexible\Bundle\GuiBundle\Event\ViewEvent;
 
 /**
- * View frame listener
+ * View frame listener.
  *
  * @author Tim Hoepfner <thoepfner@brainbits.net>
  */
@@ -37,6 +37,7 @@ class ViewFrameListener
 
     /**
      * @param ViewEvent $event
+     *
      * @internal param $redactorConfig
      */
     public function onViewFrame(ViewEvent $event)

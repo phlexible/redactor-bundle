@@ -14,7 +14,7 @@ namespace Phlexible\Bundle\RedactorBundle\Field;
 use Phlexible\Bundle\ElementtypeBundle\Field\TextField;
 
 /**
- * Redactor field
+ * Redactor field.
  *
  * @author Tim Hoepfner <thoepfner@brainbits.net>
  */
