@@ -17,7 +17,7 @@ use Symfony\Component\DependencyInjection\Loader\YamlFileLoader;
 use Symfony\Component\HttpKernel\DependencyInjection\Extension;
 
 /**
- * Redactor extension
+ * Redactor extension.
  *
  * @author Tim Hoepfner <thoepfner@brainbits.net>
  */

@@ -1,8 +1,10 @@
 <?php
 
-if (php_sapi_name() !== 'cli') exit(1);
+if (php_sapi_name() !== 'cli') {
+    exit(1);
+}
 
-$contents = "";
+$contents = '';
 $plugins = [];
 chdir(__DIR__.'/plugins');
 foreach (glob('*.js') as $script) {
@@ -14,7 +16,7 @@ foreach (glob('*.js') as $script) {
 }
 $plugins = implode(" \n", $plugins);
 $fhandle = fopen('concatenated-plugins.js', 'w');
-$fcontents=<<<EOL
+$fcontents = <<<EOL
 /*
 Concatenated redactor plugins
 $plugins

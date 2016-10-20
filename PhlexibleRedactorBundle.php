@@ -14,11 +14,10 @@ namespace Phlexible\Bundle\RedactorBundle;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
 /**
- * Redactor bundle
+ * Redactor bundle.
  *
  * @author Tim Hoepfner <thoepfner@brainbits.net>
  */
 class PhlexibleRedactorBundle extends Bundle
 {
-
 }

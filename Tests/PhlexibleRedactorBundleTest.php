@@ -14,11 +14,11 @@ namespace Phlexible\Bundle\RedactorBundle\Tests;
 use Phlexible\Bundle\RedactorBundle\PhlexibleRedactorBundle;
 
 /**
- * Redactor bundle test
+ * Redactor bundle test.
  *
  * @author Stephan Wentz <sw@brainbits.net>
  */
-class PhlexibleTinymceBundleTest extends \PHPUnit_Framework_TestCase
+class PhlexibleRedactorBundleTest extends \PHPUnit_Framework_TestCase
 {
     public function testBundle()
     {
