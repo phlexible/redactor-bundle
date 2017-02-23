@@ -22,6 +22,8 @@ use Symfony\Component\HttpFoundation\Request;
  * View frame listener test.
  *
  * @author Stephan Wentz <swentz@brainbits.net>
+ *
+ * @covers \Phlexible\Bundle\RedactorBundle\EventListener\ViewFrameListener
  */
 class ViewFrameListenerTest extends TestCase
 {

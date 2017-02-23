@@ -18,6 +18,8 @@ use PHPUnit\Framework\TestCase;
  * Redactor bundle test.
  *
  * @author Stephan Wentz <sw@brainbits.net>
+ *
+ * @covers \Phlexible\Bundle\RedactorBundle\PhlexibleRedactorBundle
  */
 class PhlexibleRedactorBundleTest extends TestCase
 {
