@@ -12,13 +12,14 @@
 namespace Phlexible\Bundle\RedactorBundle\Tests;
 
 use Phlexible\Bundle\RedactorBundle\PhlexibleRedactorBundle;
+use PHPUnit\Framework\TestCase;
 
 /**
  * Redactor bundle test.
  *
  * @author Stephan Wentz <sw@brainbits.net>
  */
-class PhlexibleRedactorBundleTest extends \PHPUnit_Framework_TestCase
+class PhlexibleRedactorBundleTest extends TestCase
 {
     public function testBundle()
     {
